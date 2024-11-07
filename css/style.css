@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-size: cover  ;
+  background-image: url('../figs/fundo4.jpg');
+  color:lightgrey;
+}
+  
+  h1{
+    color:white;
+    text-align: center;
+  }
+
+  h2, h3 {
+    color: white; /* Define a cor do texto como branco */
+    text-shadow: 2px 2px 5px black; /* Adiciona sombra preta com deslocamento de 2px na horizontal e vertical, e desfoque de 5px */
+}
+
+
+  h4{
+    background-color: rgb(36,35,35);
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  #t1 {
+    display: block; /* Altera a imagem para elemento de bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 50%;  /* Torna a imagem redonda */
+    border: 3px solid brown;  /* Adiciona uma borda marrom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adiciona sombra à imagem */
+}
+
+#t2 {
+  border: 3px solid rgb(47, 2, 2);  /* Exemplo: Adiciona uma borda azul */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Exemplo: Adiciona sombra à imagem */
+}
+
+ 
+  
+  a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  i{
+    color:darkred;
+    text-decoration: underline;
+  }
+
+
+  
+  a:hover {
+    text-decoration: none;
+    background-color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para telas menores (mobile) */
+    body {
+      font-size: 16px;
+    }
+  }
