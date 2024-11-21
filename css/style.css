@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-size: cover  ;
-  background-image: url('../figs/fundo4.jpg');
+  background-image: url('../figs/fundo5.jpg');
   color:lightgrey;
 }
   
@@ -17,7 +17,8 @@ body {
 
 
   h4{
-    background-color: rgb(36,35,35);
+    color:black;
+    background-color:#ccc;
     text-decoration: underline;
     text-align: center;
   }
